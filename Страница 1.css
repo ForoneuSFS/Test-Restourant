@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(135deg, #1f1f1f, #0d0d0d); 
+    background-color: #1a1a1a; 
+}
+.border{
+    position: relative;
+    background-color: #1a1a1a70;
+    height: 140px;
+    width: 100%;
+    right: 8px;
+    bottom: 5px;
+    z-index: -1;
+}
+.logo1{
+    height: 60px;
+    width: 170px;
+    margin-left: 250px;
+    margin: 0 auto;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.button-menu1{
+    width: 100%;
+    height: 150px;
+    background-color: #1a1a1aab;
+}
+.static{
+    width: 800;
+    height: 100;
+    margin: -8 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+    padding: 10px 20px; /* Добавим немного отступов для кнопок */
+  background-color: #33333300; /* Начальный фон кнопки */
+  border-radius: 5px; /* Скругление углов */
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.6s cubic-bezier(0.25, 0.8, 0.25, 1); 
+
+}
+
+.button:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+  background-color: #55555500; /* Изменение цвета фона при наведении */
+}
+.line-1{
+    height: 3px;
+    width: 500px;
+    background-color: white;
+    margin: 120 auto;
+}
+.text-start{
+    font-size: 100px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top:70px;
+}
+.line-2{
+    height: 3px;
+    width: 500px;
+    background-color: white;
+    margin: 20 auto;
+    margin-bottom: 0px;
+}
+.video-box{
+    height: 320px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.lasttxt2{
+    font-size: 13px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.based-box{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.video1{
+    margin: 0 auto;
+}
+.txt1{
+    font-size: 17px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.last{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
